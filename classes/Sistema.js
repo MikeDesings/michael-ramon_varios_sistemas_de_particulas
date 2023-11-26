@@ -14,7 +14,7 @@ update(){
     this.p = new Particula(this.pos.x, this.pos.y);
     this.ps.push(p);
 
-    // 3.  Verificacion y eliminación de particulas muertas
+    // 3. Verificacion y eliminación de particulas muertas
     for (let i = 0; i < this.ps.length; i++)
 if (!ps[i].isAlive){
     ps.splice(i, 1);
@@ -24,6 +24,3 @@ display(){
     this.ps[i].update();
     this.ps[i].display();
     }
-}
-}
-}
